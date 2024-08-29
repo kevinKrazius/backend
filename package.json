@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "nodemon -r dotenv/config index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
