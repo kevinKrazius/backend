@@ -2,7 +2,7 @@ const { Router } = require("express");
 
 const AppRouter = Router();
 
-AppRouter.get("/", function (req, res) {
+AppRouter.get("/world", function (req, res) {
   res.send("Hello World");
 });
 
